@@ -18,7 +18,7 @@ st.set_page_config(page_title="Customer Segmentation using K-Means", layout="wid
 st.title("📊 Customer Segmentation using K-Means Clustering")
 
 # Load dataset
-df = pd.read_csv("/content/income.csv")
+df = pd.read_csv("income.csv")
 
 st.subheader("Dataset")
 st.dataframe(df)
